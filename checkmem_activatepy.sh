@@ -1,6 +1,6 @@
 #!/bin/bash
 #---------PERSONAL VARIABLES
-RAM_PERCENTAGE_WARNING="***ram_percentage_warning***
+RAM_PERCENTAGE_WARNING="***ram_percentage_warning***"
 SCRIPT_DIRECTORY="/home/***pcuser***/.scriptmail-dependencies/"
 TMP_DIRECTORY="/tmp"
 #---------SCRIPT - CHECK MEM
