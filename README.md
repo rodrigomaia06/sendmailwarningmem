@@ -25,8 +25,8 @@ Exit - (Ctrl+X) + y + Enter
 # Removal:
 ```
 $ crontab -e
-*/10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem_activatepy.sh
-(remove the line above)
+  */10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem_activatepy.sh
+  (remove the line above)
 $rm -r /home/[user]/.scriptmail-dependencies/
 ```
 ##Additional Information
