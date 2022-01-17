@@ -1,7 +1,7 @@
 #!/bin/bash
 #---------PERSONAL VARIABLES
-RAM_PERCENTAGE_WARNING="***ram_percentage_warning***"
-SCRIPT_DIRECTORY="***script_directory***"
+RAM_PERCENTAGE_WARNING="###ram_percentage_warning###"
+SCRIPT_DIRECTORY="###script_directory###"
 TMP_DIRECTORY="/tmp"
 #---------SCRIPT - CHECK MEM
 USED_MEM=`vmstat -s |awk '/used/ && /memory/' |cut -d'K' -f1 | sed "s/ //g"`
