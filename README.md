@@ -15,7 +15,7 @@ Installation:
   crontab -e
   -----------------                                                                
   (select Nano)
-  -----------------
+ 
   */10 * * * * /bin/bash /home/pi/checkmem-sendmail.sh          (in the end of the file)
   -----------------
   (Ctrl+X) + y + Enter
