@@ -1,7 +1,7 @@
 #!/bin/bash
 #---------PERSONAL VARIABLES
 PCUSER=`whoami`
-RAM_PERCENTAGE_WARNING="1"
+RAM_PERCENTAGE_WARNING="***ram_percentage_warning***
 HOME_DIRECTORY="/home/$PCUSER"
 TMP_DIRECTORY="/tmp"
 #---------SCRIPT - CHECK MEM
