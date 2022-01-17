@@ -8,8 +8,12 @@ Requirements:
   
 Installation:
 
-  Run the installscript.sh in the terminal:         "./installscript.sh"
+  Run the in the terminal:         
   
+  wget
+  ------
+  ./installscript.sh
+  ------
   Configure Crontab to run the memory script every 10 minutes:
   
   crontab -e
