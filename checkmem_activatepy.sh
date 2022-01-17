@@ -11,7 +11,7 @@ RATIO_WARNING=`echo "scale=2; $USED_MEM / $PC_MEM * 100" | bc | cut -d'.' -f1`
 if [[ "$RATIO_WARNING" -ge $RAM_PERCENTAGE_WARNING  && ! -f $TMP_DIRECTORY/nowarning.txt ]]
 then
 	cd $SCRIPT_DIRECTORY
-	python3 mailwarningmem.py
+	python3 sendmailwarningmem.py
 	cd $TMP_DIRECTORY
 	echo 0 > nowarning.txt
 fi
