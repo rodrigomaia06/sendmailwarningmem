@@ -12,6 +12,8 @@ Installation:
   
   wget https://github.com/VladimirBromley0750/sendmailwarningmem/releases/download/Stable/installscript.sh
   ------
+  chmod +x installscript.sh
+  ------
   ./installscript.sh
   ------
   Configure Crontab to run the memory script every 10 minutes:
