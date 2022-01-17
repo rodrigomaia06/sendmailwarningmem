@@ -8,7 +8,7 @@ Requirements:
   
 Installation:
 
-  Run the installscript.sh in the terminal:         ./installscript.sh
+  Run the installscript.sh in the terminal:         "./installscript.sh"
   
   Configure Crontab to run the memory script every 10 minutes:
   
@@ -16,6 +16,8 @@ Installation:
   -----------------                                                                
   (select Nano)
  
-  */10 * * * * /bin/bash /home/pi/checkmem-sendmail.sh          (in the end of the file)
+  */10 * * * * /bin/bash /home/[user]/checkmem-sendmail.sh          (in the end of the file)
   -----------------
   (Ctrl+X) + y + Enter
+  
+  To check user's name run in the terminal: "whoami"
