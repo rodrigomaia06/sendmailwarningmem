@@ -11,10 +11,10 @@ Installation:
   Run the installscript.sh in the terminal:      ./installscript.sh
   
   Configure Crontab to run the memory script every 10 minutes:      
-                                                                  crontab -e
+  crontab -e
                                                                   
-                                                                  (select Nano)
-                                                                  
-                                                                  */10 * * * * /bin/bash /home/pi/checkmem-sendmail.sh          (in the end of the file)
-                                                                  
-                                                                  (Ctrl+X) + y + Enter
+  (select Nano)
+
+  */10 * * * * /bin/bash /home/pi/checkmem-sendmail.sh          (in the end of the file)
+
+  (Ctrl+X) + y + Enter
