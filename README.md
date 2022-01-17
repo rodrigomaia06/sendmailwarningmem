@@ -16,7 +16,7 @@ Installation:
   -----------------                                                                
   (select Nano)
  
-  */10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem-sendmail.sh          (in the end of the file)
+  */10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem_activatepy.sh         (in the end of the file)
   -----------------
   (Ctrl+X) + y + Enter
   
