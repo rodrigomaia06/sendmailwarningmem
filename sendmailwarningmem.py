@@ -1,12 +1,12 @@
 import base64
 import smtplib
-sender_email = "???sender_email???"
-password_base64 = "???password_base64???"
+sender_email = "###sender_email###"
+password_base64 = "###password_base64###"
 password = base64.b64decode(password_base64).decode("utf-8")
-rec_email = "???rec_email???"
+rec_email = "###rec_email###"
 
-subject = "AVISO!"
-body = "Mem_server >= ???percentage_warning???"
+subject = "WARNING!"
+body = "Mem_server >= ###percentage_warning###"
 msg = f"Subject: {subject}\n\n{body}"
 
 server = smtplib.SMTP("smtp.gmail.com", 587)
