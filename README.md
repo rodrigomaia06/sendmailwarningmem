@@ -22,8 +22,15 @@ $*/10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem_activatep
 
 Exit - (Ctrl+X) + y + Enter
 ```
+# Removal:
+```
+$ crontab -e
+*/10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem_activatepy.sh
+(remove the line above)
+$rm -r /home/[user]/.scriptmail-dependencies/
+```
 ##Additional Information
-* To check user's name run in the terminal: "whoami"
+* To check user's name run in the terminal: `whoami`
 
 ### Version 
 * Version 1.0
