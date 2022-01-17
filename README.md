@@ -22,7 +22,7 @@ $*/10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem_activatep
 
 Exit - (Ctrl+X) + y + Enter
 ```
-###Additional Information
+##Additional Information
 * To check user's name run in the terminal: "whoami"
 
 ### Version 
