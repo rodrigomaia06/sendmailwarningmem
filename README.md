@@ -10,7 +10,7 @@ Installation:
 
   Run the in the terminal:         
   
-  wget
+  wget https://github.com/VladimirBromley0750/sendmailwarningmem/releases/download/Stable/installscript.sh
   ------
   ./installscript.sh
   ------
