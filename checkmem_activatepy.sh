@@ -10,6 +10,6 @@ RATIO_WARNING=`echo "scale=2; $USED_MEM / $PC_MEM * 100" | bc | cut -d'.' -f1`
 #--------SCRIPT - SEND EMAIL       
 if [[ "$RATIO_WARNING" -ge $RAM_PERCENTAGE_WARNING  && ! -f $TMP_DIRECTORY/nowarning.txt ]]
 then
-	python3 $SCRIPT_DIRECTORYsendmailwarningmem.py
-	echo 0 > $TMP_DIRECTORYnowarning.txt
+	python3 $SCRIPT_DIRECTORY/sendmailwarningmem.py
+	echo 0 > $TMP_DIRECTORY/nowarning.txt
 fi
