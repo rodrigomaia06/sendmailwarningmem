@@ -1,9 +1,10 @@
 SendMailWarningMem
 ======
-Sends you an email when RAM on you PC is greater than a set value set by you. Written in BASH and Python.
+Sends you an email when RAM on you PC is greater than a set value set by you. Written in BASH and Python. 
 
 ## Prerequisites:
 * Having "Less Secure Apps" activated on sender's account: https://myaccount.google.com/lesssecureapps
+* Having a DEBIAN based distro
 
 # Installation:
 
