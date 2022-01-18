@@ -15,7 +15,6 @@ $ ./installscript.sh
 ```
 ##Configure Crontab to run the memory script every 10 minutes
 ```
-
 $ crontab -e
 (select Nano)
 $*/10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem_activatepy.sh      (in the end of the file)
