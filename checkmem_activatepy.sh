@@ -8,8 +8,8 @@ USED_MEM=`vmstat -s |awk '/used/ && /memory/' |cut -d'K' -f1 | sed "s/ //g"`
 PC_MEM=`vmstat -s |awk '/total/ && /memory/' |cut -d'K' -f1 | sed "s/ //g"`
 RATIO_WARNING=`echo "scale=2; $USED_MEM / $PC_MEM * 100" | bc | cut -d'.' -f1`
 #--------SCRIPT - SEND EMAIL       
-if [[ "$RATIO_WARNING" -ge $RAM_PERCENTAGE_WARNING  && ! -f $TMP_DIRECTORY/nowarning.txt ]]
+if [[ "$RATIO_WARNING" -ge $RAM_PERCENTAGE_WARNING  && ! -f $TMP_DIRECTORY/nosendmailwarningmem.txt ]]
 then
 	python3 $SCRIPT_DIRECTORY/sendmailwarningmem.py
-	echo 0 > $TMP_DIRECTORY/nowarning.txt
+	touch $TMP_DIRECTORY/nosendmailwarningmem.txt
 fi
