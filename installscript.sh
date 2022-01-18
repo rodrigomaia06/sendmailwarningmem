@@ -6,7 +6,7 @@ sudo apt install bc &> /dev/null
 echo "Installing Dependencies ......"; sudo apt install python3 &> /dev/null
 
 PCUSER=`whoami`
-SCRIPTDIR="/home/$PCUSER/.scriptmail-dependencies/"
+SCRIPTDIR="/home/$PCUSER/.scriptmail-dependencies"
 mkdir $SCRIPTDIR
 cd $SCRIPTDIR
 
