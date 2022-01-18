@@ -14,7 +14,7 @@ $ chmod +x installscript.sh
 $ ./installscript.sh
 ```
 ##Configure Crontab to run the memory script every 10 minutes
-`
+```
 
 $ crontab -e
 (select Nano)
