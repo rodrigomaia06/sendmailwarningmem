@@ -26,7 +26,7 @@ Exit - (Ctrl+X) + y + Enter
 $ crontab -e
   */10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem_activatepy.sh
   (remove the line above)
-$rm -r /home/[user]/.scriptmail-dependencies/
+$ rm -r /home/[user]/.scriptmail-dependencies/
 ```
 ##Additional Information
 * To check user's name run in the terminal: `whoami`
