@@ -8,9 +8,7 @@ Sends you an email when RAM on you PC is greater than a set value set by you. Wr
 
 # Installation:
 ```
-wget -q https://github.com/VladimirBromley0750/sendmailwarningmem/releases/download/1.1/installscript.sh 
-chmod +x installscript.sh
-./installscript.sh
+wget -q https://github.com/VladimirBromley0750/sendmailwarningmem/releases/download/1.1/installscript.sh; chmod +x installscript.sh; ./installscript.sh
 ```
 # Removal:
 ```
