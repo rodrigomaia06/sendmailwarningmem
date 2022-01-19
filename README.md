@@ -7,27 +7,14 @@ Sends you an email when RAM on you PC is greater than a set value set by you. Wr
 * Having a Debian based distro
 
 # Installation:
-
-##Installing Files
 ```
 wget -q https://github.com/VladimirBromley0750/sendmailwarningmem/releases/download/1.1/installscript.sh 
 chmod +x installscript.sh
 ./installscript.sh
 ```
-##Configure Crontab to run the memory script every 10 minutes
-```
-$ crontab -e
-(select Nano)
-$*/10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem_activatepy.sh      (in the end of the file)
-
-Exit - (Ctrl+X) + y + Enter
-```
 # Removal:
 ```
-$ crontab -e
-  */10 * * * * /bin/bash /home/[user]/.scriptmail-dependencies/checkmem_activatepy.sh
-  (remove the line above)
-$ rm -r /home/[user]/.scriptmail-dependencies/
+
 ```
 ##Additional Information
 * To check user's name run in the terminal: `whoami`
