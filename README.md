@@ -22,4 +22,4 @@ chmod +x uninstall.sh
 * To check user's name run in the terminal: `whoami`
 
 ### Version 
-* Version 1.0
+* Version 1.1
