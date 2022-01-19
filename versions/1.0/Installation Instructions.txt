@@ -16,7 +16,7 @@ Installation:
 
 \#\#Installing Files
 
-    $ wget https://github.com/VladimirBromley0750/sendmailwarningmem/releases/download/Stable/installscript.sh 
+    $ wget https://github.com/VladimirBromley0750/sendmailwarningmem/releases/download/1.0/installscript.sh 
     $ chmod +x installscript.sh
     $ ./installscript.sh
 
