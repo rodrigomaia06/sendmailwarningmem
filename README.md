@@ -10,9 +10,9 @@ Sends you an email when RAM on you PC is greater than a set value set by you. Wr
 
 ##Installing Files
 ```
-$ wget https://github.com/VladimirBromley0750/sendmailwarningmem/releases/download/Stable/installscript.sh 
-$ chmod +x installscript.sh
-$ ./installscript.sh
+wget -q https://github.com/VladimirBromley0750/sendmailwarningmem/releases/download/1.1/installscript.sh 
+chmod +x installscript.sh
+./installscript.sh
 ```
 ##Configure Crontab to run the memory script every 10 minutes
 ```
