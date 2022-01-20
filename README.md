@@ -5,6 +5,7 @@ Sends you an email when RAM on you PC is greater than a set value set by you. Wr
 ## Prerequisites:
 * Having "Less Secure Apps" activated on sender's account: https://myaccount.google.com/lesssecureapps
 * Having a Debian based distro
+* Using English as language
 
 # Installation:
 ```
