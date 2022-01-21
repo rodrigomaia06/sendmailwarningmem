@@ -14,8 +14,5 @@ wget -q https://github.com/VladimirBromley0750/sendmailwarningmem/releases/downl
 ```
 wget -q https://github.com/VladimirBromley0750/sendmailwarningmem/releases/download/1.1/uninstall.sh; chmod +x uninstall.sh; ./uninstall.sh
 ```
-##Additional Information
-* To check user's name run in the terminal: `whoami`
-
 ### Version 
 * Version 1.1
