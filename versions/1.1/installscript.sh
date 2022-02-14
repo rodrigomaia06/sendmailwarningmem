@@ -9,8 +9,8 @@ SCRIPTDIR="/home/$PCUSER/.scriptmail-dependencies"
 mkdir $SCRIPTDIR
 cd $SCRIPTDIR
 #-----Downloading Scripts from Github
-wget -q https://raw.githubusercontent.com/VladimirBromley0750/sendmailwarningmem/main/versions/1.1/checkmem_activatepy.sh
-echo "Downloading Needed Files ......";wget -q https://raw.githubusercontent.com/VladimirBromley0750/sendmailwarningmem/main/versions/1.1/sendmailwarningmem.py
+wget -q https://raw.githubusercontent.com/rodrigomaia06/sendmailwarningmem/main/versions/1.1/checkmem_activatepy.sh
+echo "Downloading Needed Files ......";wget -q https://raw.githubusercontent.com/rodrigomaia06/sendmailwarningmem/main/versions/1.1/sendmailwarningmem.py
 #------Making the Scripts Executable
 chmod +x checkmem_activatepy.sh
 chmod +x sendmailwarningmem.py
