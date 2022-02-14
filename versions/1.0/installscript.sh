@@ -10,8 +10,8 @@ SCRIPTDIR="/home/$PCUSER/.scriptmail-dependencies"
 mkdir $SCRIPTDIR
 cd $SCRIPTDIR
 
-wget https://raw.githubusercontent.com/VladimirBromley0750/sendmailwarningmem/main/versions/1.0/checkmem_activatepy.sh &> /dev/null
-echo "Downloading Needed Files ......";wget https://raw.githubusercontent.com/VladimirBromley0750/sendmailwarningmem/main/versions/1.0/sendmailwarningmem.py &> /dev/null
+wget https://raw.githubusercontent.com/rodrigomaia06/sendmailwarningmem/main/versions/1.0/checkmem_activatepy.sh &> /dev/null
+echo "Downloading Needed Files ......";wget https://raw.githubusercontent.com/rodrigomaia06/sendmailwarningmem/main/versions/1.0/sendmailwarningmem.py &> /dev/null
 
 chmod +x checkmem_activatepy.sh
 chmod +x sendmailwarningmem.py
